@@ -8,32 +8,42 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <div class="card text-center">
+  <div id="sidebar">
+    <!-- Here some internal links -->
+    <ul>
+    <li><a href="#summary"><i class="fa fa-user-circle-o"></i> <div>Info</div></a></li>
+    <li><a href="#favorite-movies"><i class="fa fa-play-circle"></i> <div>Movies</div></a></li>
+    <li><a href="#help"><i class="fa fa-info"></i> <div>Info</div></a></li>
+  </ul>
+  </div>
+  <div id="page-content">
 
-      <img src="images/daniel_levelev.jpg" alt="Daniel Levelev" class="img-circle" id="img-profile">
-      <h1>Daniel Levelev</h1>
-      <h2>Marketing & Sales</h2>
+    <div class="container">
+      <div class="card text-center" id="summary">
 
-      <p>
-        Experienced Founder with a demonstrated history of working in the internet industry. Strong business development professional skilled in Sales, Online-Marketing, Business Development, and Entrepreneurship.
-      </p>
+        <img src="images/daniel_levelev.jpg" alt="Daniel Levelev" class="img-circle" id="img-profile">
+        <h1>Daniel Levelev</h1>
+        <h2>Marketing & Sales</h2>
 
-      <a href="http://anwaltonlinemarketing.de" class="btn-red">See for yourself</a>
-    </div>
-    <div class="card text-center">
+        <p>
+          Experienced Founder with a demonstrated history of working in the internet industry. Strong business development professional skilled in Sales, Online-Marketing, Business Development, and Entrepreneurship.
+        </p>
 
-      <ul class="list-inline">
-        <li>
-          <a href="https://www.facebook.com/levelev">
-            <i class="fa fa-facebook"></i> <div>Facebook</div>
-          </a>
-        </li>
-        <li>
-          <a href="https://de.linkedin.com/in/levelev/de">
-            <i class="fa fa-linkedin"></i> <div>Linkedin</div>
-          </a>
-        </li>
+        <a href="http://anwaltonlinemarketing.de" class="btn-red">See for yourself</a>
+      </div>
+      <div class="card text-center"  id="favorite-movies">
+
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.facebook.com/levelev">
+              <i class="fa fa-facebook"></i> <div>Facebook</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://de.linkedin.com/in/levelev/de">
+              <i class="fa fa-linkedin"></i> <div>Linkedin</div>
+            </a>
+          </li>
       <!-- <li>
         <a href="https://twitter.com/bpapillard">
           <i class="fa fa-twitter"></i> Twitter
@@ -79,7 +89,7 @@
     </table>
 
   </div>
-  <div class="card text-center">
+  <div class="card text-center" id="help">
 
     <h2>About this page</h2>
     This page has been coded during the <a href="https://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
@@ -102,6 +112,7 @@
      </li>
    </ul>
  </div>
+</div>
 </div>
 </body>
 </html>

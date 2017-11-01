@@ -6,7 +6,7 @@ body {background-color: rgb(235,235,235);
   font-weight: 300;
 }
 
-p {
+p, table {
   font-family: Open-Sans, sans-serif;
   color: rgb(60,60,60);
   font-size: 18px;
